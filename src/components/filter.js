@@ -30,14 +30,17 @@ class Filter extends Component {
   	
     return (
       <div>
-        <header>
-          <input type="text" placeholder="filter the items" 
-          onChange={this.handleChange} />
-
-        </header>
+      	<h1>Search Engine</h1>
+        <form>
+      		<div className="form-group">
+		        <input type="text" placeholder="filter the items" 
+		        onChange={this.handleChange} className="form-control input" />
+        	</div>
+        </form>
+               
 	        {SearchFilter.map(function(items, index){
 	  	 	return <div key={index}>
-	  	 			<p>{items.title}{items.symbol}</p>
+	  	 			<p className="form-control items">{items.title}{items.symbol}</p>
 	  	 		   </div>
 	  	 	})}
       </div>

@@ -3,3 +3,13 @@
   margin-top: 10px;
 }
 
+.form-group {
+  width: 600px;
+  margin:auto;
+}
+
+.input{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
