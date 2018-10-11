@@ -31,7 +31,21 @@ class Filter extends Component {
     return (
       <div>
 				<div className="App">
-					<span className="heading" >Emoji search</span>
+				<header className="component-header">
+					<img
+						src="//cdn.jsdelivr.net/emojione/assets/png/1f638.png"
+						width="32"
+						height="32"
+						alt=""
+					/>
+					Emoji Search
+					<img
+						src="//cdn.jsdelivr.net/emojione/assets/png/1f63a.png"
+						width="32"
+						height="32"
+						alt=""
+					/>
+				</header>
 					<form>
 						<div className="form-group">
 							<input type="text" placeholder="Emoji Search......" 
