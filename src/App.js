@@ -5,7 +5,7 @@ import Filter from  './components/filter.js';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <Filter />
       </div>
     );
